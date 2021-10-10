@@ -1,0 +1,36 @@
+.cards{ 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.cardProjeto{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Cria uma sombra atras do card */
+	max-width: 500px; /* Cria um tamanho maximo de largura */
+	text-align: center; /* Ira centralizar o texto */
+  font-family: arial; /* Define uma fonte a ser utilizada no site */
+	margin: auto; /* Cria automaticamente uma margem que nesse caso ira centralizar o card */
+	position: relative;
+}
+.cardProjeto button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
+
+}
+
+.cardProjeto button:hover{ 
+  background-color: #db4dff;
+  color: white;
+
+}

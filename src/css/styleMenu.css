@@ -1,0 +1,21 @@
+.topMenu {
+	background-color: #333; /* define a cor do plano de fundo */
+	overflow: hidden;
+	}
+.topMenu a{ 
+	float: left; /* Junta todas as palavras expremidas em uma direção, nesse caso para a esquerda*/
+	color: #f2f2f2; /* Como está selecionado o a, ele define a cor de tudo dentro do a, ou seja, as palavras */
+	font-size: 17px; /* Definindo o tamanho das letras*/ 
+	padding: 14px 16px; /* Definir o tamanho que a pega de expassamento. Nessa situação ira extender o background do menu */
+	text-decoration: none; /*Tira aquelas linhas de que ficam em baixo do texto*/
+	text-align: center;
+ }
+.topMenu a:hover{ /*hover é um comando que é ativado quando o mouse está sobre o item em questão*/
+	background-color: #ddd;
+	color: black;
+}
+
+.topMenu a.ativado{ /* O a precisa estar proximo do .ativado para funcionar*/
+	background-color: #db4dff;
+	color: white;
+}
