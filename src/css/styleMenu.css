@@ -1,6 +1,7 @@
 .topMenu {
 	background-color: #333; /* define a cor do plano de fundo */
 	overflow: hidden;
+	margin-bottom: 5px;
 	}
 
 .topMenu a{ 
@@ -9,7 +10,7 @@
 	padding: 14px 16px; /* Definir o tamanho que a pega de expassamento. Nessa situação ira extender o background do menu */
 	text-decoration: none; /*Tira aquelas linhas de que ficam em baixo do texto*/
 	text-align: center;/* alinha os textos no meio */
-	display: inline-block; /* dimensionou os intens da lista em uma linha, desconfigurou o estilo lista*/
+	display: inline-block; /* dimensionou os intens da lista em uma linha, desconfigurou o estilo lista. o block faz com que toda a area sejá clickavel para direcionar para o link*/
  	float: left; /* Junta todas as palavras expremidas em uma direção, nesse caso para a esquerda*/
  }
 
